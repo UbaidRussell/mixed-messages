@@ -5,5 +5,6 @@ let paragraph = document.querySelector('p')[0];
 
 
 body.onload = function(){
+    body.style.backgroundColor = 'black';
     paragraph.innerHTML = `Hello visitor, your horoscope for today is ${horoscopegenerator}. Your love advice for today is that ${loveAdviceGenerator}. Your money advice for today is ${moneyAdviceGenerator}.`;
 }
