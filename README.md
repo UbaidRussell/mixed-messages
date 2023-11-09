@@ -7,5 +7,5 @@ To get statrted:
  ```
  Then cd into project folder and run:
  ```
- node main.js
+    open index.html
 ```
