@@ -13,4 +13,4 @@ function moneyAdviceGenerator(){
     return randomMoneyAdvice = moneyAdvice[Math.floor(Math.random() * moneyAdvice.length)]
 }
 
-module.exports = { horoscopegenerator, loveAdviceGenerator, moneyAdviceGenerator};    
+export { horoscopegenerator, loveAdviceGenerator, moneyAdviceGenerator};    
